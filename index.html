@@ -94,6 +94,26 @@
 </table>
 
     </ul>
+    <h2>Contact Us</h2>
+<form id="contactForm">
+  <label for="firstName">First Name:</label><br>
+  <input type="text" id="firstName" placeholder="Enter your first name"><br><br>
+
+  <label for="lastName">Last Name:</label><br>
+  <input type="text" id="lastName" placeholder="Enter your last name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+  <label for="confirmEmail">Confirm Email:</label><br>
+  <input type="email" id="confirmEmail" placeholder="Re-enter your email"><br><br>
+
+  <label for="question">Your Question:</label><br>
+  <textarea id="question" placeholder="Type your question here..."></textarea><br><br>
+
+  <button type="button" onclick="validateEmail()">Submit</button>
+</form>
+
   </section>
 
   <aside>
@@ -105,6 +125,18 @@
   <footer>
     <p>&copy; 2025 Explore Texas | Educational Website Project</p>
   </footer>
+<script>
+  function validateEmail() {
+    const email = document.getElementById("email").value;
+    const confirmEmail = document.getElementById("confirmEmail").value;
+
+    if (email !== confirmEmail) {
+      alert("Email addresses do not match. Please check again.");
+    } else {
+      alert("Thank you! Your message has been received.");
+    }
+  }
+</script>
 
 </body>
 </html>
