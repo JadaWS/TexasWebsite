@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Texas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Contact Explore Texas</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="austin.html">Austin</a></li>
+      <li><a href="dallas.html">Dallas</a></li>
+      <li><a href="houston.html">Houston</a></li>
+      <li><a href="frisco.html">Frisco</a></li>
+      <li><a href="midland.html">Midland</a></li>
+      <li><a href="fredericksburg.html">Fredericksburg</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    <section>
+      <h2>Get in Touch</h2>
+
+      <img src="images/contact.jpg" alt="Contact Us" style="max-width: 100%; height: auto; margin-bottom: 20px; border: 2px solid navy; border-radius: 8px;" />
+
+      <form id="contactForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" placeholder="Enter your first name"><br><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" placeholder="Enter your last name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="confirmEmail">Confirm Email:</label><br>
+        <input type="email" id="confirmEmail" placeholder="Re-enter your email"><br><br>
+
+        <label for="question">Your Question:</label><br>
+        <textarea id="question" placeholder="Type your question here..."></textarea><br><br>
+
+        <button type="button" onclick="validateEmail()">Submit</button>
+      </form>
+    </section>
+
+    <aside>
+      <h3>Helpful Links</h3>
+      <p class="asideparagraph">Check out more about Texas:</p>
+      <ul>
+        <li><a href="https://traveltexas.com" target="_blank">Travel Texas</a></li>
+        <li><a href="https://www.tsl.texas.gov/" target="_blank">State Library</a></li>
+        <li><a href="https://gov.texas.gov/" target="_blank">Governor's Office</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Explore Texas | Educational Website Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

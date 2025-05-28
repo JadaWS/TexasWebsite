@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <h1 id="main-title">Welcome to the Lone Star State</h1>
     <p>Discover the culture, history, and cities of Texas.</p>
@@ -24,112 +23,92 @@
       <li><a href="fredericksburg.html">Fredericksburg</a></li>
     </ul>
   </nav>
-   <div class="main-content">
 
-  <section>
-    <h2>About Texas</h2>
-    <p class="highlight">Texas is the second-largest U.S. state by area and population. Known for its diverse landscapes and booming cities, Texas has a rich cultural heritage and independent spirit.</p>
-    
-    <img src="images/Texas.jpg" alt="Scenic view of Texas" width="500" class="floated"/>
-  </section>
-  <aside>
+  <div class="main-content">
+    <section>
+      <h2>About Texas</h2>
+      <p class="asideparagraph">Texas is the second-largest U.S. state by area and population. Known for its diverse landscapes and booming cities, Texas has a rich cultural heritage and independent spirit.</p>
+      <img src="images/Texas.jpg" alt="Scenic view of Texas" width="500" class="floated" />
+    </section>
 
-    <h3>Quick Facts</h3>
-    <ul>
-      <li>Capital: Austin</li>
-      <li>Nickname: The Lone Star State</li>
-      <li>Statehood: December 29, 1845</li>
+    <aside>
+      <h3>Quick Facts</h3>
+      <ul>
+        <li>Capital: Austin</li>
+        <li>Nickname: The Lone Star State</li>
+        <li>Statehood: December 29, 1845</li>
+      </ul>
+
       <h3>City Comparison Table</h3>
       <h3>Top 3 Historical Facts About Texas</h3>
-<ol>
-  <li>Texas was an independent nation from 1836 to 1845 before joining the United States.</li>
-  <li>The Battle of the Alamo in 1836 became a symbol of Texas’ fight for independence from Mexico.</li>
-  <li>Texas is the only U.S. state to have had six different national flags fly over it, including Spain, France, and Mexico.</li>
-</ol>
-</ul>
-</aside>
-</div>
+      <ol>
+        <li>Texas was an independent nation from 1836 to 1845 before joining the United States.</li>
+        <li>The Battle of the Alamo in 1836 became a symbol of Texas’ fight for independence from Mexico.</li>
+        <li>Texas is the only U.S. state to have had six different national flags fly over it.</li>
+      </ol>
+    </aside>
+  </div>
 
-<table border="1">
-  <tr>
-    <th>City</th>
-    <th>Population</th>
-    <th>Region</th>
-    <th>Classification</th>
-    <th>Incorporated</th>
-  </tr>
-  <tr>
-    <td>Frisco</td>
-    <td>~225,000</td>
-    <td>North Texas</td>
-    <td>Suburban</td>
-    <td>1908</td>
-  </tr>
-  <tr>
-    <td>Midland</td>
-    <td>~138,000</td>
-    <td>West Texas</td>
-    <td>Urban</td>
-    <td>1906</td>
-  </tr>
-  <tr>
-    <td>Houston</td>
-    <td>~2.3 million</td>
-    <td>Southeast Texas</td>
-    <td>Urban</td>
-    <td>1837</td>
+  <table border="1" id="table">
+    <tr>
+      <th>City</th>
+      <th>Population</th>
+      <th>Region</th>
+      <th>Classification</th>
+      <th>Incorporated</th>
     </tr>
     <tr>
-    <td>Austin</td>
-    <td>~979,900</td>
-    <td>Central</td>
-    <td>Urban</td>
-    <td>1839</td>
-  </tr>
-  <tr>
-    <td>Dallas</td>
-    <td>~1.3 million</td>
-    <td>North</td>
-    <td>Urban</td>
-    <td>1856</td>
-  </tr>
-  <tr>
-    <td>Fredericksburg</td>
-    <td>~11,500</td>
-    <td>Hill Country</td>
-    <td>Rural</td>
-    <td>1846</td>
-  </tr>
-</table>
+      <td>Frisco</td>
+      <td>~225,000</td>
+      <td>North Texas</td>
+      <td>Suburban</td>
+      <td>1908</td>
+    </tr>
+    <tr>
+      <td>Midland</td>
+      <td>~138,000</td>
+      <td>West Texas</td>
+      <td>Urban</td>
+      <td>1906</td>
+    </tr>
+    <tr>
+      <td>Houston</td>
+      <td>~2.3 million</td>
+      <td>Southeast Texas</td>
+      <td>Urban</td>
+      <td>1837</td>
+    </tr>
+    <tr>
+      <td>Austin</td>
+      <td>~979,900</td>
+      <td>Central</td>
+      <td>Urban</td>
+      <td>1839</td>
+    </tr>
+    <tr>
+      <td>Dallas</td>
+      <td>~1.3 million</td>
+      <td>North</td>
+      <td>Urban</td>
+      <td>1856</td>
+    </tr>
+    <tr>
+      <td>Fredericksburg</td>
+      <td>~11,500</td>
+      <td>Hill Country</td>
+      <td>Rural</td>
+      <td>1846</td>
+    </tr>
+  </table>
 
-  <section>
-    <h2>Contact Us</h2>
-<form id="contactForm">
-  <label for="firstName">First Name:</label><br>
-  <input type="text" id="firstName" placeholder="Enter your first name"><br><br>
-
-  <label for="lastName">Last Name:</label><br>
-  <input type="text" id="lastName" placeholder="Enter your last name"><br><br>
-
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" placeholder="Enter your email"><br><br>
-
-  <label for="confirmEmail">Confirm Email:</label><br>
-  <input type="email" id="confirmEmail" placeholder="Re-enter your email"><br><br>
-
-  <label for="question">Your Question:</label><br>
-  <textarea id="question" placeholder="Type your question here..."></textarea><br><br>
-
-  <button type="button" onclick="validateEmail()">Submit</button>
-</form>
-
-  </section>
-<div>
-  <aside>
+<aside class="asideparagraph">
     <h3>Did You Know?</h3>
-    <p class="highlight">Texas was once an independent country — the Republic of Texas — from 1836 to 1845.</p>
+    <p>Texas was once an independent country — the Republic of Texas — from 1836 to 1845.</p>
     <p><a href="https://traveltexas.com/" target="_blank">Learn more about Texas travel</a></p>
   </aside>
+
+  <div class="absolute-note">
+    <p>Explore Texas with pride!</p>
   </div>
 
   <footer>
@@ -137,20 +116,17 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    function validateEmail() {
+      const email = document.getElementById("email").value;
+      const confirmEmail = document.getElementById("confirmEmail").value;
 
-
-<script>
-  function validateEmail() {
-    const email = document.getElementById("email").value;
-    const confirmEmail = document.getElementById("confirmEmail").value;
-
-    if (email !== confirmEmail) {
-      alert("Email addresses do not match. Please check again.");
-    } else {
-      alert("Thank you! Your message has been received.");
+      if (email !== confirmEmail) {
+        alert("Email addresses do not match. Please check again.");
+      } else {
+        alert("Thank you! Your message has been received.");
+      }
     }
-  }
-</script>
-
+  </script>
 </body>
 </html>
