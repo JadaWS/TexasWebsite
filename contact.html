@@ -30,23 +30,23 @@
     <section>
       <h2>Get in Touch</h2>
 
-      <img src="images/contact.jpg" alt="Contact Us" style="max-width: 100%; height: auto; margin-bottom: 20px; border: 2px solid navy; border-radius: 8px;" />
+      <img src="images/Contact.jpg" alt="Contact Us" style="max-width: 100%; height: auto; margin-bottom: 20px; border: 2px solid navy; border-radius: 8px;" />
 
-      <form id="contactForm">
-        <label for="firstName">First Name:</label><br>
-        <input type="text" id="firstName" placeholder="Enter your first name"><br><br>
+      <form id="contactForm" novalidate>
+        <label for="firstName">First Name:</label><br />
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" /><br /><br />
 
-        <label for="lastName">Last Name:</label><br>
-        <input type="text" id="lastName" placeholder="Enter your last name"><br><br>
+        <label for="lastName">Last Name:</label><br />
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" /><br /><br />
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your email" /><br /><br />
 
-        <label for="confirmEmail">Confirm Email:</label><br>
-        <input type="email" id="confirmEmail" placeholder="Re-enter your email"><br><br>
+        <label for="confirmEmail">Confirm Email:</label><br />
+        <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Re-enter your email" /><br /><br />
 
-        <label for="question">Your Question:</label><br>
-        <textarea id="question" placeholder="Type your question here..."></textarea><br><br>
+        <label for="question">Your Question:</label><br />
+        <textarea id="question" name="question" placeholder="Type your question here..."></textarea><br /><br />
 
         <button type="button" onclick="validateEmail()">Submit</button>
       </form>
@@ -56,9 +56,9 @@
       <h3>Helpful Links</h3>
       <p class="asideparagraph">Check out more about Texas:</p>
       <ul>
-        <li><a href="https://traveltexas.com" target="_blank">Travel Texas</a></li>
-        <li><a href="https://www.tsl.texas.gov/" target="_blank">State Library</a></li>
-        <li><a href="https://gov.texas.gov/" target="_blank">Governor's Office</a></li>
+        <li><a href="https://traveltexas.com" target="_blank" rel="noopener noreferrer">Travel Texas</a></li>
+        <li><a href="https://www.tsl.texas.gov/" target="_blank" rel="noopener noreferrer">State Library</a></li>
+        <li><a href="https://gov.texas.gov/" target="_blank" rel="noopener noreferrer">Governor's Office</a></li>
       </ul>
     </aside>
   </div>
