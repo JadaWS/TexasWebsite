@@ -45,28 +45,57 @@ img.floated {
   text-align: center;
   margin-top: 20px;
 }
-/* Navigation styles */
-.navbar {
-  list-style-type: none;  /* Remove bullets */
-  padding: 0;
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  display: flex;          /* Arrange items in a row */
-  background-color: lightgray; /* Optional background */
-  justify-content: center; /* Center nav */
+  padding: 0;
 }
 
-.navbar li {
+header, nav, section, aside {
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  background-color: lightgray;
+}
+/* Navigation styles */
+
+
+nav li {
   margin: 0 15px;         /* Spacing between links */
 }
 
-.navbar a {
+nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.navbar a:hover {
+nav ul li a:hover {
   color: darkblue;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* Make the main content and aside take up space */
+section {
+  width: 70%;
+}
+
+aside {
+  width: 28%;
+  margin-left: 2%;
+  background-color: #f2f2f2;
+  padding: 1rem;
 }
 
 
