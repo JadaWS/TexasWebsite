@@ -21,6 +21,7 @@
       <li><a href="frisco.html">Frisco</a></li>
       <li><a href="midland.html">Midland</a></li>
       <li><a href="fredericksburg.html">Fredericksburg</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
@@ -40,6 +41,58 @@
       </ul>
 
       <h3>City Comparison Table</h3>
+      <table border="1" id="table">
+        <tr>
+          <th>City</th>
+          <th>Population</th>
+          <th>Region</th>
+          <th>Classification</th>
+          <th>Incorporated</th>
+        </tr>
+        <tr>
+          <td>Frisco</td>
+          <td>~225,000</td>
+          <td>North Texas</td>
+          <td>Suburban</td>
+          <td>1908</td>
+        </tr>
+        <tr>
+          <td>Midland</td>
+          <td>~138,000</td>
+          <td>West Texas</td>
+          <td>Urban</td>
+          <td>1906</td>
+        </tr>
+        <tr>
+          <td>Houston</td>
+          <td>~2.3 million</td>
+          <td>Southeast Texas</td>
+          <td>Urban</td>
+          <td>1837</td>
+        </tr>
+        <tr>
+          <td>Austin</td>
+          <td>~979,900</td>
+          <td>Central</td>
+          <td>Urban</td>
+          <td>1839</td>
+        </tr>
+        <tr>
+          <td>Dallas</td>
+          <td>~1.3 million</td>
+          <td>North</td>
+          <td>Urban</td>
+          <td>1856</td>
+        </tr>
+        <tr>
+          <td>Fredericksburg</td>
+          <td>~11,500</td>
+          <td>Hill Country</td>
+          <td>Rural</td>
+          <td>1846</td>
+        </tr>
+      </table>
+
       <h3>Top 3 Historical Facts About Texas</h3>
       <ol>
         <li>Texas was an independent nation from 1836 to 1845 before joining the United States.</li>
@@ -49,59 +102,7 @@
     </aside>
   </div>
 
-  <table border="1" id="table">
-    <tr>
-      <th>City</th>
-      <th>Population</th>
-      <th>Region</th>
-      <th>Classification</th>
-      <th>Incorporated</th>
-    </tr>
-    <tr>
-      <td>Frisco</td>
-      <td>~225,000</td>
-      <td>North Texas</td>
-      <td>Suburban</td>
-      <td>1908</td>
-    </tr>
-    <tr>
-      <td>Midland</td>
-      <td>~138,000</td>
-      <td>West Texas</td>
-      <td>Urban</td>
-      <td>1906</td>
-    </tr>
-    <tr>
-      <td>Houston</td>
-      <td>~2.3 million</td>
-      <td>Southeast Texas</td>
-      <td>Urban</td>
-      <td>1837</td>
-    </tr>
-    <tr>
-      <td>Austin</td>
-      <td>~979,900</td>
-      <td>Central</td>
-      <td>Urban</td>
-      <td>1839</td>
-    </tr>
-    <tr>
-      <td>Dallas</td>
-      <td>~1.3 million</td>
-      <td>North</td>
-      <td>Urban</td>
-      <td>1856</td>
-    </tr>
-    <tr>
-      <td>Fredericksburg</td>
-      <td>~11,500</td>
-      <td>Hill Country</td>
-      <td>Rural</td>
-      <td>1846</td>
-    </tr>
-  </table>
-
-<aside class="asideparagraph">
+  <aside class="asideparagraph">
     <h3>Did You Know?</h3>
     <p>Texas was once an independent country — the Republic of Texas — from 1836 to 1845.</p>
     <p><a href="https://traveltexas.com/" target="_blank">Learn more about Texas travel</a></p>
@@ -114,19 +115,5 @@
   <footer>
     <p>&copy; 2025 Explore Texas | Educational Website Project</p>
   </footer>
-
-  <script src="script.js"></script>
-  <script>
-    function validateEmail() {
-      const email = document.getElementById("email").value;
-      const confirmEmail = document.getElementById("confirmEmail").value;
-
-      if (email !== confirmEmail) {
-        alert("Email addresses do not match. Please check again.");
-      } else {
-        alert("Thank you! Your message has been received.");
-      }
-    }
-  </script>
 </body>
 </html>
