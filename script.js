@@ -1,14 +1,12 @@
 
+function validateEmail() {
+  const email = document.getElementById("email").value.trim();
+  const confirmEmail = document.getElementById("confirmEmail").value.trim();
 
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector("form");
-  const email = document.getElementById("email");
-  const confirmEmail = document.getElementById("confirm-email");
+  if (email !== confirmEmail) {
+    alert("Email addresses do not match. Please check and try again.");
+  } else {
+    alert("Email addresses match. Your form is ready to submit!");
+  }
+}
 
-  form.addEventListener("submit", function (event) {
-    if (email.value !== confirmEmail.value) {
-      event.preventDefault(); // prevent form submission
-      alert("Email addresses do not match. Please check and try again.");
-    }
-  });
-});
